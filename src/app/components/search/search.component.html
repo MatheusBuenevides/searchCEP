@@ -20,10 +20,10 @@
         </button>
     </form>
 
-    <div *ngIf="address.addressLine">
-        <h1> Informações sobre o seu cep </h1>
-        <p>Endereço: {{address.addressLine}}</p>
-        <p>Cidade: {{address.city}}</p>
-        <p>Estado: {{address.state}}</p>
-    </div>
+    <div *ngIf="address.addressLine" class="ml-2"> 
+        <h1 class="font-semibold"> Informações sobre o seu cep </h1>
+        <p class="font-light ml-2">Endereço: {{address.addressLine}}</p>
+        <p class="font-light ml-2">Cidade: {{address.city}}</p>
+        <p class="font-light ml-2">Estado: {{address.state}}</p>
+    </div> 
 </div>
